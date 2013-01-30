@@ -22,12 +22,12 @@ rpi_box_h = 9;
 hole_r = 3/2;
 mount_r = 2.5;
 mounting_holes = [[rpi_l - 25.5, rpi_w - 18, -box_t],[5, 12.5, -box_t]];
-rpi_mounts = [["plain", [rpi_l - 25.5, rpi_w - 18, -box_t], 5, 0],
-              ["plain", [5, 12.5, -box_t], 5, 0],
-              ["split_base", [rpi_l - 25.5, rpi_w - 18, -box_t], 5, 3],
-              ["split_base", [5, 12.5, -box_t], 5, 3],
-              ["plain", [rpi_l - 25.5, 11.5, -box_t], 4, 0],
-              ["plain", [5, rpi_w - 5, -box_t], 4, 0]];
+rpi_mounts = [["plain", [rpi_l - 25.5, rpi_w - 18, -box_t], 5, 2.8],
+              ["plain", [5, 12.5, -box_t], 5, 2.8],
+              // ["split_base", [rpi_l - 25.5, rpi_w - 18, -box_t], 5, 3],
+              // ["split_base", [5, 12.5, -box_t], 5, 3],
+              ["plain", [rpi_l - 25.5, 11.5, -box_t], 5, 0],
+              ["plain", [5, rpi_w - 5, -box_t], 5, 0]];
 
 sd_card_w = 28.3;
 sd_card_offset = 11.5;
